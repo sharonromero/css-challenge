@@ -23,6 +23,7 @@ em {
 	border-right-width: 10px;
 	border-color: black;
 	background-color: black;
+	font-family: "Arial Unicode MS";
 }
 
 h1{
@@ -33,6 +34,7 @@ h1{
 		border-color: black;
 		background-color: black;
 		color: chartreuse;
+	font-family: "Palatino Linotype";
 	}
 
 
@@ -86,5 +88,43 @@ body { width: 100%;}
 .container h4 {
 	background-color: black;
 	color: ghostwhite;
+}
+.container h2 {
+	text-align: right;
+}
+
+.instructions-content h2 {
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	text-align: right;
+}
+
+
+.instructions-content ol {
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}
+
+.about-me {
+	background-color: blue;
+	color: ghostwhite ;
+}
+
+.form-wrapper h2 {
+	text-align: left;
+}
+
+.form-wrapper {
+	background-color: darkgreen;
+	color: chartreuse;
+	font-family: "Arial Unicode MS";
+	letter-spacing: 4px;
+}
+
+table {
+	background-color: black;
+	color: chartreuse;
 }
 
