@@ -15,29 +15,6 @@ html, body {
 	padding: 0 2rem;
 }
 
-em {
-	color: chartreuse;
-	border-style: solid;
-	border-width: 3px;
-	border-left-width: 10px;
-	border-right-width: 10px;
-	border-color: black;
-	background-color: black;
-	font-family: "Arial Unicode MS";
-}
-
-h1{
-		border-style: solid;
-		border-width: 3px;
-		border-left-width: 10px;
-		border-right-width: 10px;
-		border-color: black;
-		background-color: black;
-		color: chartreuse;
-	font-family: "Palatino Linotype";
-	}
-
-
 .clearfix {
 	clear: both;
 }
@@ -84,10 +61,37 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+em {
+	color: chartreuse;
+	border-style: solid;
+	border-width: 3px;
+	border-left-width: 10px;
+	border-right-width: 10px;
+	border-color: black;
+	background-color: black;
+	font-family: "Arial Unicode MS";
+	}
+
+h1{
+	border-style: solid;
+	border-width: 3px;
+	border-left-width: 10px;
+	border-right-width: 10px;
+	border-color: black;
+	background-color: black;
+	color: chartreuse;
+	font-family: "Palatino Linotype";
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
 
 .container h4 {
 	background-color: black;
 	color: ghostwhite;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
 }
 .container h2 {
 	text-align: right;
@@ -110,6 +114,8 @@ body { width: 100%;}
 .about-me {
 	background-color: blue;
 	color: ghostwhite ;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 
 .form-wrapper h2 {
@@ -121,10 +127,17 @@ body { width: 100%;}
 	color: chartreuse;
 	font-family: "Arial Unicode MS";
 	letter-spacing: 4px;
+	padding-left: 150px;
+	padding-right: 50px;
+
 }
 
 table {
 	background-color: black;
 	color: chartreuse;
+	padding-left: 250px;
+	padding-right: 250px;
+
 }
+
 
