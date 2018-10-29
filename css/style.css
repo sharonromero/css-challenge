@@ -17,6 +17,7 @@ html, body {
 
 .clearfix {
 	clear: both;
+
 }
 
 /* create a responsive container */
@@ -61,6 +62,7 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+/*computer scientist, top of page*/
 em {
 	color: chartreuse;
 	border-style: solid;
@@ -72,6 +74,7 @@ em {
 	font-family: "Arial Unicode MS";
 	}
 
+/*Dylan McDonald, top of page*/
 h1{
 	border-style: solid;
 	border-width: 3px;
@@ -86,6 +89,7 @@ h1{
 	text-align: center;
 }
 
+/*Best viewed with Netscape, bottom of page*/
 .container h4 {
 	background-color: black;
 	color: ghostwhite;
@@ -93,6 +97,8 @@ h1{
 	padding-bottom: 20px;
 	text-align: center;
 }
+
+/*Professional skills*/
 .container h2 {
 	text-align: right;
 }
@@ -105,6 +111,7 @@ h1{
 }
 
 
+/*Instruction steps*/
 .instructions-content ol {
 	border-style: solid;
 	border-width: 3px;
@@ -118,10 +125,12 @@ h1{
 	padding-bottom: 1px;
 }
 
+/*contact me*/
 .form-wrapper h2 {
 	text-align: left;
 }
 
+/*Form*/
 .form-wrapper {
 	background-color: darkgreen;
 	color: chartreuse;
@@ -137,7 +146,49 @@ table {
 	color: chartreuse;
 	padding-left: 250px;
 	padding-right: 250px;
-
 }
+
+section div img {
+	border: none;
+	border-radius: none;
+	padding: 15px;
+	padding-left: 400px;
+	width: 350px;
+	float: none;
+}
+
+.container div img {
+	border: none;
+	border-radius: none;
+	padding: 15px;
+	width: 250px;
+	float: right;
+}
+
+.about-me div img {
+	border: none;
+	border-radius: none;
+	padding: 15px;
+	width: 300px;
+	float: left;
+
+.instructions-wrapper {
+	border-style: solid;
+	border-color: white;
+	border-width: 20px;
+}
+
+.instructions-wrapper img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+	float: right;
+}
+
+
+
+
+
 
 
